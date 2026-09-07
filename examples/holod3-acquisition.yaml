@@ -1,0 +1,25 @@
+schema_version: 1
+name: custom-collision-acquisition
+description: Synchronized background-removed holograms.
+mode: dual_phase_retrieval
+frames:
+  primary_holograms: holograms/primary
+  secondary_holograms: holograms/secondary
+optics:
+  wavelength_um: 0.6328
+  pixel_pitch_um: 10.0
+  image_size_px: 1024
+  reconstruction_start_um: 64900.0
+  slice_spacing_um: 100.0
+  slice_count: 1024
+  phase_retrieval_distance_um: 21450.0
+reconstruction:
+  phase_retrieval_iterations: 12
+  fft_padding_side: 2048
+  minip_slice_step: 2
+calibration:
+  secondary_distortion_coefficients: null
+transforms:
+  primary: []
+  secondary: []
+  minip: []

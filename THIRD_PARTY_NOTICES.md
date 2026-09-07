@@ -1,0 +1,14 @@
+# Third-party notices
+
+RA3D-specific code is authored by Dai Nakai and released under MIT. Numerical kernels were ported from the author's research code, with source hashes and symbol provenance in `src/ra3d/_core/provenance.json` and `two_d_provenance.json`. The Python synthetic label generator and half-mixture allocation preserve the author's original implementation; their provenance is in `src/ra3d/simulation/provenance.json`.
+
+[HoloD3](https://github.com/dainakai/HoloD3) and [HoloD3-Linker](https://github.com/dainakai/HoloD3-Linker) are separate dependencies under their published software licenses. Their model and dataset licenses are separate from their source-code licenses. In particular, HoloD3's Ultralytics detector checkpoints and initializers remain subject to their applicable upstream terms. RA3D's MIT license does not replace those terms.
+
+The Python Z-GMM implementation follows the author's `zsmooth_new.jl`. Its Savitzky–Golay endpoint behavior follows the odd-reflection convention in [SavitzkyGolay.jl](https://github.com/lnacquaroli/SavitzkyGolay.jl), an MIT-licensed package; numerical coefficients are computed using SciPy. Hologram propagation follows the angular-spectrum formulation used by ParticleHolography.jl; the published Python renderer uses PyTorch rather than embedding Julia source.
+
+Direct dependencies include NumPy, pandas, SciPy, scikit-learn, PyTorch, Pillow, PyArrow, PyYAML, Hugging Face Hub, Flask, threadpoolctl, zstandard, skops, safetensors, and Matplotlib. Each dependency retains its own license. The local review page is implemented within RA3D and does not load JavaScript or CSS from a CDN.
+
+Synthetic images and tabular research data released with RA3D are covered by the dataset card's CC BY 4.0 grant. Do not interpret software access as permission to redistribute an unrelated experimental dataset or third-party model.
+# SCALE-SDM physical tables and kernel conventions
+
+The Davis–Jonas–Hall collision-efficiency table and associated physical interpolation conventions derive from SCALE-SDM 0.2.5-2.2.2, archived at https://doi.org/10.5281/zenodo.3841674. Copyright (c) 2012–2015, Team SCALE. The original BSD-style two-clause redistribution notice is retained in `src/ra3d/config/physics/LICENSE-SCALE.txt` and included in installed distributions. Cite Shima et al. (2020), https://doi.org/10.5194/gmd-13-4107-2020, when using this component. RA3D's MIT license does not replace that notice.

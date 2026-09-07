@@ -1,0 +1,915 @@
+{
+  "historical_commit": "3c05157596869487be6c326a49aa943cd77c7de7",
+  "symbols": [
+    {
+      "module": "features",
+      "symbol": "OLD_FEATURES",
+      "source_file": "enhanced_model_features.py",
+      "source_lines": [
+        9,
+        31
+      ],
+      "source_sha256": "ff3bc3d360f6bd4084608a37bace2deebeb1a4436fefb08ce13b6f0dc9f5fd2f"
+    },
+    {
+      "module": "features",
+      "symbol": "NEW_FEATURES",
+      "source_file": "enhanced_model_features.py",
+      "source_lines": [
+        33,
+        105
+      ],
+      "source_sha256": "ff3bc3d360f6bd4084608a37bace2deebeb1a4436fefb08ce13b6f0dc9f5fd2f"
+    },
+    {
+      "module": "features",
+      "symbol": "ENHANCED_FEATURES",
+      "source_file": "enhanced_model_features.py",
+      "source_lines": [
+        107,
+        107
+      ],
+      "source_sha256": "ff3bc3d360f6bd4084608a37bace2deebeb1a4436fefb08ce13b6f0dc9f5fd2f"
+    },
+    {
+      "module": "features",
+      "symbol": "finite_series",
+      "source_file": "enhanced_model_features.py",
+      "source_lines": [
+        110,
+        111
+      ],
+      "source_sha256": "ff3bc3d360f6bd4084608a37bace2deebeb1a4436fefb08ce13b6f0dc9f5fd2f"
+    },
+    {
+      "module": "features",
+      "symbol": "add_derived_features",
+      "source_file": "enhanced_model_features.py",
+      "source_lines": [
+        114,
+        148
+      ],
+      "source_sha256": "ff3bc3d360f6bd4084608a37bace2deebeb1a4436fefb08ce13b6f0dc9f5fd2f"
+    },
+    {
+      "module": "features",
+      "symbol": "feature_frame",
+      "source_file": "enhanced_model_features.py",
+      "source_lines": [
+        151,
+        159
+      ],
+      "source_sha256": "ff3bc3d360f6bd4084608a37bace2deebeb1a4436fefb08ce13b6f0dc9f5fd2f"
+    },
+    {
+      "module": "candidates",
+      "symbol": "TRACK_RE",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        28,
+        28
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "Track",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        31,
+        64
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "FrameIndex",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        67,
+        71
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "track_id_from_path",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        114,
+        118
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "iter_track_files",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        121,
+        125
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "finite_difference",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        128,
+        141
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "load_tracks",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        144,
+        207
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "build_frame_indices",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        210,
+        222
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "vector_um",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        225,
+        226
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "velocity_um_frame",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        229,
+        230
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "effective_distance_um",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        233,
+        234
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "boundary_penalty",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        250,
+        264
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "median_window",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        267,
+        274
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "survivor_change_score",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        277,
+        304
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "vertical_chase_features",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        307,
+        330
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "candidates",
+      "symbol": "generate_candidate_pool",
+      "source_file": "detect_vanish_survive_collisions.py",
+      "source_lines": [
+        333,
+        450
+      ],
+      "source_sha256": "c8ea39eb687c8e44f1d0685336b5da55ea16b178e93204bf078eb924c5fc84f6"
+    },
+    {
+      "module": "matching",
+      "symbol": "normalized_match_cost",
+      "source_file": "common.py",
+      "source_lines": [
+        113,
+        131
+      ],
+      "source_sha256": "82de71ea31910c5541ad434d7c0e83c93f9429309a04077381f1a8f7e6eb27ee"
+    },
+    {
+      "module": "matching",
+      "symbol": "candidate_truth_adjacency",
+      "source_file": "common.py",
+      "source_lines": [
+        134,
+        224
+      ],
+      "source_sha256": "82de71ea31910c5541ad434d7c0e83c93f9429309a04077381f1a8f7e6eb27ee"
+    },
+    {
+      "module": "matching",
+      "symbol": "incremental_maximum_matching",
+      "source_file": "common.py",
+      "source_lines": [
+        227,
+        276
+      ],
+      "source_sha256": "82de71ea31910c5541ad434d7c0e83c93f9429309a04077381f1a8f7e6eb27ee"
+    },
+    {
+      "module": "labels",
+      "symbol": "role_consistent",
+      "source_file": "run_identity_label_ranking.py",
+      "source_lines": [
+        97,
+        120
+      ],
+      "source_sha256": "dfc7c9578e527b0ba1e9d18a74faa41a969e6fffcfeaec31f0108abadc8d58e9"
+    },
+    {
+      "module": "labels",
+      "symbol": "attach_identity_labels",
+      "source_file": "run_identity_label_ranking.py",
+      "source_lines": [
+        123,
+        346
+      ],
+      "source_sha256": "dfc7c9578e527b0ba1e9d18a74faa41a969e6fffcfeaec31f0108abadc8d58e9"
+    },
+    {
+      "module": "suppression",
+      "symbol": "coordinate_nms",
+      "source_file": "run_full_feature_cascade.py",
+      "source_lines": [
+        504,
+        542
+      ],
+      "source_sha256": "80d5dba7ed6cf1297647a9ee9e6b0bcc3975353a51374d88dd12653e044aa64f"
+    },
+    {
+      "module": "ranking",
+      "symbol": "percentile_score",
+      "source_file": "run_permissive_static.py",
+      "source_lines": [
+        143,
+        146
+      ],
+      "source_sha256": "a273e54699cfa33547289000f9bdcabff32262e1aa42e69c2125f255cad3e387"
+    },
+    {
+      "module": "ranking",
+      "symbol": "logit_blend",
+      "source_file": "run_permissive_static.py",
+      "source_lines": [
+        149,
+        162
+      ],
+      "source_sha256": "a273e54699cfa33547289000f9bdcabff32262e1aa42e69c2125f255cad3e387"
+    },
+    {
+      "module": "ranks",
+      "symbol": "attach_ranks",
+      "source_file": "run_asymmetric_full.py",
+      "source_lines": [
+        102,
+        137
+      ],
+      "source_sha256": "62f59845d631682ff8750d646886fbcf138a88b5bba82d604d7947bd6315eb97"
+    },
+    {
+      "module": "context",
+      "symbol": "BASE_FEATURES",
+      "source_file": "run_group_context.py",
+      "source_lines": [
+        22,
+        28
+      ],
+      "source_sha256": "9dcdb41092492b38ce4f80857dfee8e2057844ff3827ea3efc9eb439010056b3"
+    },
+    {
+      "module": "context",
+      "symbol": "GROUP_SPECS",
+      "source_file": "run_group_context.py",
+      "source_lines": [
+        29,
+        33
+      ],
+      "source_sha256": "9dcdb41092492b38ce4f80857dfee8e2057844ff3827ea3efc9eb439010056b3"
+    },
+    {
+      "module": "context",
+      "symbol": "CONTEXT_FEATURES",
+      "source_file": "run_group_context.py",
+      "source_lines": [
+        34,
+        57
+      ],
+      "source_sha256": "9dcdb41092492b38ce4f80857dfee8e2057844ff3827ea3efc9eb439010056b3"
+    },
+    {
+      "module": "context",
+      "symbol": "add_one_group_context",
+      "source_file": "run_group_context.py",
+      "source_lines": [
+        66,
+        113
+      ],
+      "source_sha256": "9dcdb41092492b38ce4f80857dfee8e2057844ff3827ea3efc9eb439010056b3"
+    },
+    {
+      "module": "context",
+      "symbol": "context_frame",
+      "source_file": "run_group_context.py",
+      "source_lines": [
+        116,
+        146
+      ],
+      "source_sha256": "9dcdb41092492b38ce4f80857dfee8e2057844ff3827ea3efc9eb439010056b3"
+    },
+    {
+      "module": "context",
+      "symbol": "blend_scores",
+      "source_file": "run_group_context.py",
+      "source_lines": [
+        198,
+        204
+      ],
+      "source_sha256": "9dcdb41092492b38ce4f80857dfee8e2057844ff3827ea3efc9eb439010056b3"
+    },
+    {
+      "module": "relation",
+      "symbol": "RELATION_FEATURES",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        24,
+        38
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "relation",
+      "symbol": "RelationAttentionRanker",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        47,
+        96
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "relation",
+      "symbol": "finite_context_features",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        99,
+        105
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "relation",
+      "symbol": "relation_columns",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        108,
+        133
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "relation",
+      "symbol": "build_set_arrays",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        136,
+        191
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "relation",
+      "symbol": "event_balanced_weights",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        194,
+        235
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "relation",
+      "symbol": "normalization",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        238,
+        243
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "relation",
+      "symbol": "normalize_features",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        246,
+        254
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "relation",
+      "symbol": "choose_device",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        257,
+        264
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "relation",
+      "symbol": "fit_model",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        267,
+        335
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "relation",
+      "symbol": "relation_scores",
+      "source_file": "run_relation_attention.py",
+      "source_lines": [
+        338,
+        381
+      ],
+      "source_sha256": "fcbcadd654551759ba641665a2d2d410405924b7a535f011ec7bed82ab1fde3d"
+    },
+    {
+      "module": "policy",
+      "symbol": "adjusted_score",
+      "source_file": "run_structural_policy.py",
+      "source_lines": [
+        25,
+        41
+      ],
+      "source_sha256": "a1ec355e0ae616bad413c996b70564adc34b088784e2ce333b3f2ab5a7065b05"
+    },
+    {
+      "module": "policy",
+      "symbol": "temporal_mode_predictions",
+      "source_file": "run_structural_policy.py",
+      "source_lines": [
+        44,
+        142
+      ],
+      "source_sha256": "a1ec355e0ae616bad413c996b70564adc34b088784e2ce333b3f2ab5a7065b05"
+    },
+    {
+      "module": "residual",
+      "symbol": "TARGETS",
+      "source_file": "run_coordinate_correction.py",
+      "source_lines": [
+        21,
+        21
+      ],
+      "source_sha256": "29590fe0a95cbe66724bd9e89c8e1d50e2e3f9f8d4ac75caf2365b1848738edb"
+    },
+    {
+      "module": "residual",
+      "symbol": "correct_predictions",
+      "source_file": "run_coordinate_correction.py",
+      "source_lines": [
+        112,
+        140
+      ],
+      "source_sha256": "29590fe0a95cbe66724bd9e89c8e1d50e2e3f9f8d4ac75caf2365b1848738edb"
+    },
+    {
+      "module": "track_images",
+      "symbol": "TrackPoint",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        73,
+        78
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "DiameterStats",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        81,
+        86
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "EventSpec",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        89,
+        100
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "finite_float",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        139,
+        146
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "first_not_none",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        154,
+        158
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "point_at",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        161,
+        189
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "load_track",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        192,
+        199
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "choose_center",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        202,
+        217
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "crop_with_mean_padding",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        220,
+        237
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "normalize_crop",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        240,
+        246
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "determine_mode",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        329,
+        332
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "track_images",
+      "symbol": "collect_diameter",
+      "source_file": "generate_collision_gifs.py",
+      "source_lines": [
+        388,
+        419
+      ],
+      "source_sha256": "bf1396bbfeec0148cb2cdc09f0d1d4f837b0dfa0f529f2bf33aab7b7db437cde"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "DX_UM",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        14,
+        14
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "DZ_UM",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        15,
+        15
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "Z_WEIGHT",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        16,
+        16
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "Track",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        19,
+        27
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "Point",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        30,
+        37
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "finite_difference",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        40,
+        53
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "load_track",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        56,
+        78
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "point_exact",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        81,
+        92
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "eff_distance",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        95,
+        96
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "slope",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        99,
+        108
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "positive_fraction",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        111,
+        115
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "kinematics",
+      "symbol": "analyze_row",
+      "source_file": "kinematic_pre_event.py",
+      "source_lines": [
+        118,
+        238
+      ],
+      "source_sha256": "1a58ff09b1f9cfa1023776f977a1089864188b391f59ea3873fc3f4c594be799"
+    },
+    {
+      "module": "components",
+      "symbol": "ComponentHit",
+      "source_file": "same_component_features.py",
+      "source_lines": [
+        13,
+        19
+      ],
+      "source_sha256": "163a259eb6dc4249081beec826c21b356996b719b9187ceb44669329de339d06"
+    },
+    {
+      "module": "components",
+      "symbol": "point_hit",
+      "source_file": "same_component_features.py",
+      "source_lines": [
+        38,
+        75
+      ],
+      "source_sha256": "163a259eb6dc4249081beec826c21b356996b719b9187ceb44669329de339d06"
+    },
+    {
+      "module": "components",
+      "symbol": "component_area",
+      "source_file": "same_component_features.py",
+      "source_lines": [
+        78,
+        81
+      ],
+      "source_sha256": "163a259eb6dc4249081beec826c21b356996b719b9187ceb44669329de339d06"
+    },
+    {
+      "module": "feature_primitives",
+      "symbol": "make_dark_mask",
+      "source_file": "build_enhanced_candidate_features.py",
+      "source_lines": [
+        122,
+        135
+      ],
+      "source_sha256": "a3896a9623a36eaf0d65399dac9317890e7faf7d95b51d23cad1467cf5632172"
+    },
+    {
+      "module": "feature_primitives",
+      "symbol": "summarize_diameter",
+      "source_file": "build_enhanced_candidate_features.py",
+      "source_lines": [
+        138,
+        211
+      ],
+      "source_sha256": "a3896a9623a36eaf0d65399dac9317890e7faf7d95b51d23cad1467cf5632172"
+    },
+    {
+      "module": "feature_primitives",
+      "symbol": "SameAccumulator",
+      "source_file": "build_enhanced_candidate_features.py",
+      "source_lines": [
+        250,
+        298
+      ],
+      "source_sha256": "a3896a9623a36eaf0d65399dac9317890e7faf7d95b51d23cad1467cf5632172"
+    },
+    {
+      "module": "optics",
+      "symbol": "transfer_sqrt_arr",
+      "source_file": "depth_model_estimate.py",
+      "source_lines": [
+        198,
+        202
+      ],
+      "source_sha256": "4a9d2fdb1df74b686ddc8ed379ff8a1844d808529bf672b56666a992b24cc115"
+    },
+    {
+      "module": "optics",
+      "symbol": "transfer",
+      "source_file": "depth_model_estimate.py",
+      "source_lines": [
+        205,
+        207
+      ],
+      "source_sha256": "4a9d2fdb1df74b686ddc8ed379ff8a1844d808529bf672b56666a992b24cc115"
+    },
+    {
+      "module": "optics",
+      "symbol": "load_gray2float",
+      "source_file": "depth_model_estimate.py",
+      "source_lines": [
+        246,
+        247
+      ],
+      "source_sha256": "4a9d2fdb1df74b686ddc8ed379ff8a1844d808529bf672b56666a992b24cc115"
+    },
+    {
+      "module": "optics",
+      "symbol": "distortion_maps",
+      "source_file": "depth_model_estimate.py",
+      "source_lines": [
+        253,
+        281
+      ],
+      "source_sha256": "4a9d2fdb1df74b686ddc8ed379ff8a1844d808529bf672b56666a992b24cc115"
+    },
+    {
+      "module": "optics",
+      "symbol": "quadratic_distortion_correction",
+      "source_file": "depth_model_estimate.py",
+      "source_lines": [
+        284,
+        289
+      ],
+      "source_sha256": "4a9d2fdb1df74b686ddc8ed379ff8a1844d808529bf672b56666a992b24cc115"
+    },
+    {
+      "module": "optics",
+      "symbol": "fft2",
+      "source_file": "depth_model_estimate.py",
+      "source_lines": [
+        297,
+        300
+      ],
+      "source_sha256": "4a9d2fdb1df74b686ddc8ed379ff8a1844d808529bf672b56666a992b24cc115"
+    },
+    {
+      "module": "optics",
+      "symbol": "ifft2",
+      "source_file": "depth_model_estimate.py",
+      "source_lines": [
+        303,
+        306
+      ],
+      "source_sha256": "4a9d2fdb1df74b686ddc8ed379ff8a1844d808529bf672b56666a992b24cc115"
+    },
+    {
+      "module": "optics",
+      "symbol": "phase_retrieval_holo",
+      "source_file": "depth_model_estimate.py",
+      "source_lines": [
+        309,
+        327
+      ],
+      "source_sha256": "4a9d2fdb1df74b686ddc8ed379ff8a1844d808529bf672b56666a992b24cc115"
+    },
+    {
+      "module": "padding",
+      "symbol": "mean_pad_complex",
+      "source_file": "proc.py",
+      "source_lines": [
+        338,
+        344
+      ],
+      "source_sha256": "b75baa6aacfdbdadcce6881848ce1ac591d04d984b5cd1ac2d4601bd4a58cea7"
+    }
+  ]
+}

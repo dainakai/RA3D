@@ -1,0 +1,31 @@
+schema_version: 1
+# Only assert exhaustive_truth after annotating the entire independent scene.
+scenes:
+  - id: 101
+    split: train
+    exhaustive_truth: true
+    tracks: scene101/tracks.parquet
+    acquisition: scene101/acquisition.yaml
+    truth: scene101/events.csv
+    mapping: scene101/identity.csv
+  - id: 102
+    split: train
+    exhaustive_truth: true
+    tracks: scene102/tracks.parquet
+    acquisition: scene102/acquisition.yaml
+    truth: scene102/events.csv
+    mapping: scene102/identity.csv
+  - id: 103
+    split: train
+    exhaustive_truth: true
+    tracks: scene103/tracks.parquet
+    acquisition: scene103/acquisition.yaml
+    truth: scene103/events.csv
+    mapping: scene103/identity.csv
+  - id: 201
+    split: validation
+    exhaustive_truth: true
+    tracks: scene201/tracks.parquet
+    acquisition: scene201/acquisition.yaml
+    truth: scene201/events.csv
+    mapping: scene201/identity.csv

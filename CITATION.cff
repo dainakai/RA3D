@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite RA3D, the associated paper, and the exact dataset revision used."
+type: software
+title: "RA3D: Holographic particle collision detection and review"
+authors:
+  - family-names: Nakai
+    given-names: Dai
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/dainakai/RA3D"
+url: "https://huggingface.co/datasets/dnakaikit/RA3D"
+abstract: "Python algorithms, staged data access, training, inference, and visual review for holographic particle collision measurements."

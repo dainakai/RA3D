@@ -1,0 +1,35 @@
+{
+  "method": "ra3d",
+  "set_top_k": 20,
+  "hidden_size": 48,
+  "attention_heads": 4,
+  "epochs": 12,
+  "batch_size": 192,
+  "inference_batch_size": 512,
+  "learning_rate": 0.0008,
+  "weight_decay": 0.0001,
+  "random_seed": 270901,
+  "device": "cpu",
+  "cpu_threads": 4,
+  "relation_logit_weight": 0.15,
+  "source_policy": {
+    "score_column": "relation_attention_percentile",
+    "pair_mode_gap_frames": 10,
+    "maximum_modes_per_vanished_track": 5,
+    "coordinate_suppression": true,
+    "coordinate_frame_tolerance": 2,
+    "coordinate_xy_tolerance_um": 250.0,
+    "coordinate_z_tolerance_um": 7500.0,
+    "lineage_log_odds_penalty": 1.0
+  },
+  "residual_model": {
+    "max_iter": 150,
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 30,
+    "l2_regularization": 0.1
+  },
+  "outside_fraction": 0.4,
+  "image_fraction": 0.25,
+  "structural_max_vanished_rank": 20
+}

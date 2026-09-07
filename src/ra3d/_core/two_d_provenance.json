@@ -1,0 +1,206 @@
+[
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "STAGE1_FEATURES",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "STATIC_ONLY_FEATURES",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "TWO_D_FEATURES",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "EXCLUDED_DEPTH_FEATURES",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "percentile_score",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "add_2d_derived_features",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "xy_spatial_adjacency",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "incremental_maximum_matching",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "role_consistent",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "attach_track_sources",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "attach_training_labels",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "logit_blend",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "selected_gate_mask",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "attach_outside_rank",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "shortlist_mask",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "rank_within_vanished",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "common.py",
+    "source_sha256": "97fdc364e0388d82852e22c0d2e5ae0e9795445130beeba1af1922997efa5963",
+    "symbol": "identity_adjacency",
+    "module": "two_d_common"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "BASE_CONTEXT_FEATURES",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "GROUP_SPECS",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "CONTEXT_FEATURES",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "RELATION_FEATURES",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "add_group_context",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "context_frame",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "RelationAttentionRanker",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "relation_columns",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "build_set_arrays",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "relation_weights",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "fit_attention",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "attention_scores",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "coordinate_nms_2d",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "policy_predictions",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "fit_residual_models",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "train_2d_relation.py",
+    "source_sha256": "45021f39624936b7c8209730c14f73e44ae17f4b6b854482d11a21f56f553cca",
+    "symbol": "correct_predictions",
+    "module": "two_d_relation"
+  },
+  {
+    "source_file": "prepare_2d_data.py",
+    "source_sha256": "16794c85daf65e1772e5b3fa679152969830e41573f4679216066080e8a4b3d5",
+    "symbol": "budget_select",
+    "module": "two_d_budget"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "module": "physical",
+    "source_file": "generate_clean.py",
+    "source_sha256": "30da4ce17759ccb21fe2ac78469a98758429383e9377c6b9f7d587ac1978a810",
+    "changes": "Package imports and English metadata text; numerical generator preserved."
+  },
+  {
+    "module": "half_mixture",
+    "source_file": "half_mixture.py",
+    "source_sha256": "ddafe3f0c26adc69d6ba1aecd5c84a46b32956721d0e64841d39238bb635f6fc",
+    "changes": "Package imports and English metadata text; numerical generator preserved."
+  },
+  {
+    "module": "generate",
+    "source_file": "generate_collision_benchmark.py",
+    "source_sha256": "9bea91038c92afdebee66878c1b65de374855b79b761ecb66f216ab26978ef7f",
+    "changes": "Package imports and English metadata text; numerical generator preserved."
+  }
+]

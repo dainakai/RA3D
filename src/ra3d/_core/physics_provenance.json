@@ -1,0 +1,31 @@
+{
+  "kernels": [
+    {
+      "source_file": "analyze_hall_collision_comparison.py",
+      "sha256": "72b0010cadcad144e24eb364a6aa9371ca001cde0315232ba2d91d9958f2443a",
+      "symbol": "HallCorrectedLaminarKernel"
+    },
+    {
+      "source_file": "analyze_hall_collision_comparison.py",
+      "sha256": "72b0010cadcad144e24eb364a6aa9371ca001cde0315232ba2d91d9958f2443a",
+      "symbol": "pair_prediction"
+    },
+    {
+      "source_file": "analyze_hall_collision_comparison.py",
+      "sha256": "72b0010cadcad144e24eb364a6aa9371ca001cde0315232ba2d91d9958f2443a",
+      "symbol": "predictive_standard_deviation"
+    },
+    {
+      "source_file": "analyze_physical_consistency.py",
+      "sha256": "ce4c1ef8782c3c48424e01fa2d2a69eae6c3c7fcfa539990b3a8f5b3d846acc2",
+      "symbol": "median_velocity_px_per_frame"
+    },
+    {
+      "source_file": "analyze_physical_consistency.py",
+      "sha256": "ce4c1ef8782c3c48424e01fa2d2a69eae6c3c7fcfa539990b3a8f5b3d846acc2",
+      "symbol": "summary_metrics"
+    }
+  ],
+  "upstream": "SCALE-SDM 0.2.5-2.2.2",
+  "doi": "10.5281/zenodo.3841674"
+}

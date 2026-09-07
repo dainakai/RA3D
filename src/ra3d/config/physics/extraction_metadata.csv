@@ -1,0 +1,16 @@
+quantity,value
+surface_pressure_hpa,900
+surface_theta_k,316.543
+surface_qv_gkg,12.58106
+derived_surface_temperature_k,307.182512167724
+derived_surface_density_kg_m3,1.01296885954811
+efficiency_large_radius_min_um,6
+efficiency_large_radius_max_um,300
+efficiency_radius_ratio_min,0
+efficiency_radius_ratio_max,1
+nonzero_kernel_small_radius_min_um,0.3
+nonzero_kernel_small_radius_max_um,300
+efficiency_min,0.001
+efficiency_max,4
+positive_kernel_min_m3_s,1.57604717985925e-15
+positive_kernel_max_m3_s,9.25366499570096e-07
