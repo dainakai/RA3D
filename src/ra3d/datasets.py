@@ -45,6 +45,8 @@ def load_manifest(*, repo_id=DEFAULT_REPOSITORY, revision=None, local=None):
     for item in manifest["files"]:
         path = item["path"]
         contained_path(Path.cwd(), path)
+        if item.get("extract_root") is not None:
+            contained_path(Path.cwd(), item["extract_root"])
         if path in paths:
             raise ValueError(f"Duplicate dataset artifact: {path}")
         paths.add(path)
@@ -159,9 +161,12 @@ def download(
             temporary.replace(destination)
         if extract and item.get("archive"):
             marker = destination.with_name(destination.name + ".extracted.json")
-            if not marker.exists() or json.loads(marker.read_text()).get("sha256") != item["sha256"]:
-                count = extract_archive(destination, output, expected_members=item.get("members"))
-                write_json({"sha256": item["sha256"], "members": count}, marker)
+            extract_root = item.get("extract_root", ".")
+            extraction_root = contained_path(output, extract_root)
+            previous = json.loads(marker.read_text()) if marker.exists() else {}
+            if previous.get("sha256") != item["sha256"] or previous.get("extract_root", ".") != extract_root:
+                count = extract_archive(destination, extraction_root, expected_members=item.get("members"))
+                write_json({"sha256": item["sha256"], "members": count, "extract_root": extract_root}, marker)
         if progress:
             progress({"stage": "download", "completed": index, "total": len(selected), "path": item["path"]})
     write_json({"manifest": manifest, "selection": report}, output / "download_receipt.json")

@@ -1,0 +1,192 @@
+{
+  "dataset_revision": "06d5c430b78523e8efe56fdd73ce17b93ea8cb63",
+  "source_revision": "bdd7cf0d1ce57a86e7e9205b493ecd5fdc04bc50",
+  "approved_assets": 12,
+  "asset_bytes": 842426281,
+  "source_checksums": "all_equal",
+  "full_asset_check": {
+    "models": [
+      {
+        "id": "detector",
+        "path": "models/production/detector.pt",
+        "exists": true,
+        "size_matches": true,
+        "hash_matches": true,
+        "ok": true
+      },
+      {
+        "id": "depth-primary",
+        "path": "models/production/depth-primary.pt",
+        "exists": true,
+        "size_matches": true,
+        "hash_matches": true,
+        "ok": true
+      },
+      {
+        "id": "depth-fallback",
+        "path": "models/production/depth-fallback.pt",
+        "exists": true,
+        "size_matches": true,
+        "hash_matches": true,
+        "ok": true
+      },
+      {
+        "id": "diameter",
+        "path": "models/production/diameter.pt",
+        "exists": true,
+        "size_matches": true,
+        "hash_matches": true,
+        "ok": true
+      }
+    ],
+    "training_initializers": [
+      {
+        "id": "detector-architecture",
+        "path": "models/initializers/detector-architecture.pt",
+        "exists": true,
+        "size_matches": true,
+        "hash_matches": true,
+        "ok": true
+      },
+      {
+        "id": "detector-baseline",
+        "path": "models/initializers/detector-baseline.pt",
+        "exists": true,
+        "size_matches": true,
+        "hash_matches": true,
+        "ok": true
+      }
+    ],
+    "training_inputs": [
+      {
+        "id": "detector-experimental",
+        "path": "data/downloaded/detector-experimental/data.yaml",
+        "exists": true,
+        "hash_matches": true,
+        "rows": null,
+        "rows_match": true,
+        "ok": true
+      },
+      {
+        "id": "detector-mixed",
+        "path": "data/downloaded/detector-mixed/data.yaml",
+        "exists": true,
+        "hash_matches": true,
+        "rows": null,
+        "rows_match": true,
+        "ok": true
+      },
+      {
+        "id": "depth-primary",
+        "path": "data/downloaded/depth-primary/manifest.csv",
+        "exists": true,
+        "hash_matches": true,
+        "rows": 104172,
+        "rows_match": true,
+        "ok": true
+      },
+      {
+        "id": "depth-fallback",
+        "path": "data/downloaded/depth-fallback/manifest.csv",
+        "exists": true,
+        "hash_matches": true,
+        "rows": 30600,
+        "rows_match": true,
+        "ok": true
+      },
+      {
+        "id": "diameter-combined",
+        "path": "data/downloaded/diameter-combined/crops.csv",
+        "exists": true,
+        "hash_matches": true,
+        "rows": 14080,
+        "rows_match": true,
+        "ok": true
+      },
+      {
+        "id": "evaluation-benchmark",
+        "path": "data/downloaded/evaluation-benchmark/acquisition.yaml",
+        "exists": true,
+        "hash_matches": true,
+        "rows": null,
+        "rows_match": true,
+        "ok": true
+      }
+    ],
+    "yolo": {
+      "experimental_base": {
+        "train": {
+          "presentations": 33,
+          "missing_images": [],
+          "missing_labels": []
+        },
+        "val": {
+          "presentations": 9,
+          "missing_images": [],
+          "missing_labels": []
+        }
+      },
+      "mixed_training": {
+        "train": {
+          "presentations": 228,
+          "missing_images": [],
+          "missing_labels": []
+        },
+        "val": {
+          "presentations": 9,
+          "missing_images": [],
+          "missing_labels": []
+        }
+      }
+    },
+    "crop_references": {
+      "depth_primary": {
+        "rows": 104172,
+        "samples": 5200,
+        "resolved_crop_files": 104172,
+        "ok": true
+      },
+      "depth_fallback": {
+        "rows": 30600,
+        "samples": 1600,
+        "resolved_crop_files": 30600,
+        "ok": true
+      },
+      "diameter": {
+        "rows": 14080,
+        "resolved_crop_files": 14080,
+        "source_frames": 14080,
+        "ok": true
+      }
+    },
+    "holdout": {
+      "path": "data/downloaded/evaluation-benchmark",
+      "frame_count": 12,
+      "frame_names_aligned": true,
+      "missing": [],
+      "particle_truth_rows": 4800,
+      "ok": true
+    },
+    "ok": true
+  },
+  "inference_smoke": {
+    "command": "ra3d detect --device cuda:0 --limit 1",
+    "preset": "portable-torch",
+    "benchmark_frames": 1,
+    "measured_particles": 485,
+    "elapsed_seconds": 14.214052994735539,
+    "ultralytics_version": "8.4.91",
+    "scope": "Verifies released weights and the pipeline; not an accuracy estimate or a retraining claim."
+  },
+  "public_download_verification": {
+    "revision": "06d5c430b78523e8efe56fdd73ce17b93ea8cb63",
+    "anonymous": true,
+    "verified": true,
+    "manifest_files": 326,
+    "lfs_checksums": 269,
+    "small_content_checksums": 57,
+    "upstream_download_files": 33,
+    "upstream_download_bytes": 842523446,
+    "required_bundle_paths": "all_present"
+  }
+}

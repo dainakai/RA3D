@@ -5,7 +5,7 @@ title: "RA3D: Holographic particle collision detection and review"
 authors:
   - family-names: Nakai
     given-names: Dai
-version: 0.1.0
+version: 0.1.1
 license: MIT
 repository-code: "https://github.com/dainakai/RA3D"
 url: "https://huggingface.co/datasets/dnakaikit/RA3D"

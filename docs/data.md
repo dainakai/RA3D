@@ -1,6 +1,6 @@
 # Selective data release
 
-The [Hugging Face dataset](https://huggingface.co/datasets/dnakaikit/RA3D) contains independent stages of the six-scene synthetic benchmark. The package pins an immutable dataset commit in `config/release.json`. `manifest.json` records every artifact's tier, scene, split, byte count and SHA-256. It also records archive member counts. Model artifacts share this dataset repository for one reproducible download interface.
+The [Hugging Face dataset](https://huggingface.co/datasets/dnakaikit/RA3D) contains independent stages of the six-scene synthetic collision benchmark and the separate HoloD3 measurement training/evaluation corpus. The package pins an immutable dataset commit in `config/release.json`. `manifest.json` records every artifact's tier, scene, split, byte count and SHA-256. It also records archive member counts and any relative extraction root. Model artifacts share this dataset repository for one reproducible download interface.
 
 ## Download only what you need
 
@@ -27,6 +27,10 @@ Repeat `--tier` or `--scene` to combine selections. `--scene 260745` and `--scen
 | `predictions` | Released 3D/2D development and terminal predictions | Reproduce reported evaluation |
 | `baseline2d` | Depth-free gate/static/full/wide tables and reference scores | Refit the 2D counterpart |
 | `holograms` | All 6,000 synchronized background-removed image pairs per scene, calibration and frame manifests | Recompute image stages |
+| `holod3-models` | Four upstream measurement models and their license/source notices | Detect particles, estimate depth and diameter |
+| `holod3-initializers` | Two original YOLO detector initializers and AGPL notices | Retrain upstream detectors |
+| `holod3-training` | Five detector, depth and diameter bundles with original train/validation/test splits | Retrain upstream measurement models |
+| `holod3-evaluation` | Twelve paired synthetic frames, calibration and particle truth | Verify the measurement pipeline |
 
 ## Layout and scientific split
 
@@ -70,3 +74,14 @@ Allow disk space for the Hugging Face cache, downloaded archives and extracted i
 Original RA3D synthetic data use CC BY 4.0. RA3D collision model artifacts use MIT, as specified in their cards. The release is the training/validation corpus for the collision experiment. Experimental visual-review decisions are not exhaustive event truth and are not mixed into training. HoloD3 detector/depth/diameter training bundles and weights have their own distribution and licensing status; see [upstream assets](upstream.md).
 
 For direct Hub use, download paths from the manifest with `hf_hub_download(..., repo_type="dataset", revision=<pinned commit>)`. Hub dataset-viewer configurations expose selected Parquet tables; the manifest-based CLI covers all stages, archives and model files.
+
+## HoloD3 assets
+
+The four `holod3-*` tiers are independent of the six collision scenes. Selecting them does not fetch the full collision holograms. Their original internal training/validation/test splits remain inside each bundle; the CLI's collision `--split` filter does not subdivide them.
+
+```bash
+ra3d download --tier holod3-models --output data
+ra3d download --tier holod3-training --tier holod3-evaluation --extract --output data
+```
+
+Use RA3D 0.1.1 or newer: it understands the manifest's `extract_root` field and installs upstream bundles at the layout expected by HoloD3. Follow the [upstream guide](upstream.md) to clone HoloD3 at the matching destination before downloading if you intend to run its full training ledger. No original private account credentials are needed. The project-owned upstream data use CC BY 4.0; depth/diameter checkpoints use MIT; YOLO checkpoints and initializers retain AGPL-3.0. Each selected tier includes its applicable notices.

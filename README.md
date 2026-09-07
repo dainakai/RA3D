@@ -53,6 +53,8 @@ ra3d download --tier models --output data
 | Use completed image features in a new experiment | `image-complete` |
 | Reconstruct images or regenerate image features | `holograms`, `tracking` |
 | Reproduce the depth-free counterpart | `baseline2d`, `labels` |
+| Run upstream particle detection, depth and diameter estimation | `holod3-models` |
+| Retrain and check upstream measurement models | `holod3-training`, `holod3-evaluation`, `holod3-models`, `holod3-initializers` |
 
 Tiers, scenes, splits, and exact byte sizes are recorded in a checksum manifest. Holograms are never downloaded implicitly. To obtain one scene's paired images:
 
@@ -61,6 +63,8 @@ ra3d download --tier holograms --scene 260745 --extract --output data
 ```
 
 See [data layout and download controls](docs/data.md), including the distinction between `paper92` and `image_complete92`.
+
+HoloD3 training data and measurement checkpoints are publicly downloadable without an account. Its four optional tiers add about 842 MB before extraction, with separate license notices for YOLO assets. The [upstream guide](docs/upstream.md) gives the clone, download, verification and retraining commands.
 
 ## Reproduce the paper
 
