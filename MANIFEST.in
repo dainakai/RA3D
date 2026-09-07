@@ -1,0 +1,5 @@
+include README.md LICENSE THIRD_PARTY_NOTICES.md CITATION.cff
+recursive-include docs *.md *.json
+recursive-include examples *.py *.csv *.yaml
+recursive-include tests *.py
+recursive-include tests/fixtures *.parquet *.md
